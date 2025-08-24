@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Products - FreshBites</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -17,19 +20,19 @@
             </div>
             <nav>
                 <div class="nav-container">
-                <ul>
-                    <li  ><a href="index.html">Home</a></li>
-                    <li class="active" ><a href="products.html">Products</a></li>
-                    <li  ><a href="about.html">About Us</a></li>
-                    <li  ><a href="contact.html">Contact</a></li>
-                </ul>
-                <div class="search-bar">
-                    <input type="text" placeholder="Search for products...">
-                    <button class="btn-search" type="submit">search</i></button>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search for products...">
+                        <button class="btn-search" type="submit">search</i></button>
+                    </div>
                 </div>
-            </div>
             </nav>
-            
+
         </div>
     </header>
 
@@ -64,43 +67,44 @@
                 </div>
             </div>
 
+            <!-- في قسم products-grid، غير كود المنتجات ليكون كالتالي -->
             <div class="products-grid">
-                <div class="product-card">
+                <div class="product-card" data-category="fruits" data-price="24.99">
                     <img src="assets/images/Organic Fruits.jpg" alt="Organic Fruits">
                     <h3>Organic Fruits Basket</h3>
                     <p class="description">Seasonal selection of organic fruits</p>
                     <p class="price">$24.99</p>
                     <button class="btn">Add to Cart</button>
                 </div>
-                <div class="product-card">
+                <div class="product-card" data-category="bakery" data-price="12.99">
                     <img src="assets/images/Artisan Bread.jpg" alt="Artisan Bread">
                     <h3>Artisan Bread Selection</h3>
                     <p class="description">Handcrafted bread from local bakeries</p>
                     <p class="price">$12.99</p>
                     <button class="btn">Add to Cart</button>
                 </div>
-                <div class="product-card">
+                <div class="product-card" data-category="beverages" data-price="16.99">
                     <img src="assets/images/Premium Coffee.jpg" alt="Premium Coffee">
                     <h3>Premium Coffee Beans</h3>
                     <p class="description">100% Arabica coffee beans</p>
                     <p class="price">$16.99</p>
                     <button class="btn">Add to Cart</button>
                 </div>
-                <div class="product-card">
+                <div class="product-card" data-category="vegetables" data-price="18.99">
                     <img src="assets/images/Fresh Vegetables.jpg" alt="Fresh Vegetables">
                     <h3>Fresh Vegetable Box</h3>
                     <p class="description">Farm-fresh seasonal vegetables</p>
                     <p class="price">$18.99</p>
                     <button class="btn">Add to Cart</button>
                 </div>
-                <div class="product-card">
+                <div class="product-card" data-category="beverages" data-price="4.99">
                     <img src="assets/images/Organic Milk.jpg" alt="Organic Milk">
                     <h3>Organic Dairy Milk</h3>
                     <p class="description">1L of fresh organic milk</p>
                     <p class="price">$4.99</p>
                     <button class="btn">Add to Cart</button>
                 </div>
-                <div class="product-card">
+                <div class="product-card" data-category="bakery" data-price="22.99">
                     <img src="assets/images/Gourmet Cheese.jpg" alt="Gourmet Cheese">
                     <h3>Gourmet Cheese Selection</h3>
                     <p class="description">Assortment of fine cheeses</p>
@@ -150,6 +154,7 @@
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
